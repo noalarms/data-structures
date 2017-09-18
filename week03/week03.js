@@ -52,5 +52,5 @@ async.eachSeries(addresses, function(value, callback) {
     });
     setTimeout(callback, 2000);
 }, function() {
-    fs.writeFileSync('/home/ubuntu/workspace/data/week03.txt', JSON.stringify(meetingsData));
+    fs.writeFileSync('/home/ubuntu/workspace/week03-latlong.txt', JSON.stringify(meetingsData));
 });
