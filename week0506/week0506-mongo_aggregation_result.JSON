@@ -1,0 +1,138 @@
+[
+    {
+        "_id": "59daae150bdf9f0f1bc2e9af",
+        "venue": "Church of the Ascension",
+        "name": "BLOOMINGDALE - Bloomingdale",
+        "address": "221 West 107th Street, New York, NY",
+        "details": "All Meetings Are Non-Smoking. Anniversary meeting last Tues at 6:15",
+        "hasWheelchairAccess": false,
+        "day": "Tuesdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "type": "B = Beginners meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 40.8018597,
+            "lng": -73.9663042
+        }
+    },
+    {
+        "_id": "59daae150bdf9f0f1bc2e9b5",
+        "venue": "Universalist Church",
+        "name": "CENTRAL PARK WEST - Central Park West",
+        "address": "Central Park West & 76th Street, New York, NY",
+        "details": "T Last Thursday",
+        "hasWheelchairAccess": false,
+        "day": "Tuesdays",
+        "startTime": 2015,
+        "endTime": 2130,
+        "type": "C = Closed Discussion meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 41.0882898,
+            "lng": -80.7434787
+        }
+    },
+    {
+        "_id": "59daae150bdf9f0f1bc2e9f2",
+        "venue": "Iglesia Metodista Grace",
+        "name": "GRUPO LUZ DIVINA -",
+        "address": "125 West 104th Street, New York, NY",
+        "details": "Spanish speaking meeting.",
+        "hasWheelchairAccess": true,
+        "day": "Tuesdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "type": "O = Open meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 40.798687,
+            "lng": -73.9649286
+        }
+    },
+    {
+        "_id": "59daae150bdf9f0f1bc2ea07",
+        "venue": "West End Collegiate Church",
+        "name": "NEVER TOO LATE - Never Too Late",
+        "address": "368 West End Ave, New York, NY",
+        "details": "All meetings are non-smoking.",
+        "hasWheelchairAccess": false,
+        "day": "Tuesdays",
+        "startTime": 1930,
+        "endTime": 2030,
+        "type": "C = Closed Discussion meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 40.7831667,
+            "lng": -73.98154819999999
+        }
+    },
+    {
+        "_id": "59daae150bdf9f0f1bc2ea0c",
+        "venue": "Holy Name Church",
+        "name": "NINETY-SIXTH STREET WORKSHOP - Ninety-Sixth Street Workshop",
+        "address": "207 West 96th Street, New York, NY",
+        "details": "Anniv. Last Thursday, Fri=Promises, Sat=As Bill Sees It",
+        "hasWheelchairAccess": false,
+        "day": "Tuesdays",
+        "startTime": 2200,
+        "endTime": 2300,
+        "type": "S = Step meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 40.7944661,
+            "lng": -73.97063899999999
+        }
+    },
+    {
+        "_id": "59daae150bdf9f0f1bc2ea18",
+        "venue": "Phoenix House",
+        "name": "ROUTES -",
+        "address": "164 West 74 Street, New York, NY",
+        "details": null,
+        "hasWheelchairAccess": false,
+        "day": "Tuesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "type": "B = Beginners meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 40.7795102,
+            "lng": -73.98025559999999
+        }
+    },
+    {
+        "_id": "59daae150bdf9f0f1bc2ea2a",
+        "venue": "Church of St. Paul & St. Andrew",
+        "name": "WEST END - West End",
+        "address": "263 West 86th Street, New York, NY",
+        "details": "Wheelchair access",
+        "hasWheelchairAccess": true,
+        "day": "Tuesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "type": "B = Beginners meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 40.7888908,
+            "lng": -73.9772512
+        }
+    },
+    {
+        "_id": "59daae150bdf9f0f1bc2ea2b",
+        "venue": "Church of St. Paul & St. Andrew",
+        "name": "WEST END - West End",
+        "address": "263 West 86th Street, New York, NY",
+        "details": "Wheelchair access",
+        "hasWheelchairAccess": true,
+        "day": "Tuesdays",
+        "startTime": 1900,
+        "endTime": 2000,
+        "type": "BB = Big Book meeting",
+        "specialInterest": null,
+        "latLong": {
+            "lat": 40.7888908,
+            "lng": -73.9772512
+        }
+    }
+]
