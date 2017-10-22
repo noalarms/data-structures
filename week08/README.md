@@ -1,6 +1,6 @@
 # Data Model
 
-![alt text](data structures week8 diagram.png "screenshot")
+![alt text](https://github.com/noalarms/data-structures/blob/master/week08/data%20structures%20week8%20diagram.png "screenshot")
 
 # SQL Code
 
