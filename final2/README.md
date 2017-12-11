@@ -4,7 +4,7 @@ I was assigned the Piezo (knock) sensor and temperature sensor. These sensors we
 
 ## Part One
 
-![alt text](http://markdownlivepreview.com/image/logo.png "screenshot")
+![alt text](https://raw.githubusercontent.com/noalarms/data-structures/master/final2/part1.png "Interface")
 
 ### Description
 This interface is a dual y-axis chart showing the values from the knock sensor vs the values from the temperature sensor. My endpoint data provides min and max values for each, over time. This shows the range of min/max values of each sensor for each day between 11/11 and 12/7 (days that showed valid data).
