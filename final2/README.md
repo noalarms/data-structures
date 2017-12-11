@@ -9,7 +9,7 @@ I was assigned the Piezo (knock) sensor and temperature sensor. These sensors we
 ### Description
 This interface is a dual y-axis chart showing the values from the knock sensor vs the values from the temperature sensor. My endpoint data provides min and max values for each, over time. This shows the range of min/max values of each sensor for each day between 11/11 and 12/7 (days that showed valid data).
 
-I've used Analog-to-Digital Conversion (ADC) as the unit of value for Piezo/knock, found from the description here: [https://www.arduino.cc/en/Tutorial/Knock](here)
+I've used Analog-to-Digital Conversion (ADC) as the unit of value for Piezo/knock, found from the description here: [https://www.arduino.cc/en/Tutorial/Knock](here). Temperature is measured in Celsius.
 
 The mouse cursor in the image shows hover interaction for easier glancing of information. When a user hovers on a column (12/6 in this example), the background of the column highlights and info popovers show the max and min for both knock and temperature for that particular date.
 
@@ -24,10 +24,10 @@ For my endpoint, I've collected the following data (and pictured below):
 - __sensorday:__ the month
 - __sensormonth:__ the day
 - __num_obs:__ number of observations
-- __max_knock:__ maximum knock value
-- __min_knock:__ maximum temp value
-- __max_temp:__ minimum temp value
-- __min_temp:__ maximum temp value
+- __max_knock:__ maximum knock value (ADC)
+- __min_knock:__ maximum temp value (ADC)
+- __max_temp:__ minimum temp value (Celsius)
+- __min_temp:__ maximum temp value (Celsius)
 
 ![alt text](https://raw.githubusercontent.com/noalarms/data-structures/master/final2/part2-data.png "Data")
 
