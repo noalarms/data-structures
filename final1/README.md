@@ -41,7 +41,6 @@ Link to map: [AA Map](http://ec2-54-165-90-63.compute-1.amazonaws.com:3000/aa)
 ### Binding/Marker Content Creation
 
 	function makeContent(cont) {
-	console.log("inside makeContent, cont is: " + JSON.stringify(cont));
 	            var contentHolder = '<div id="content">' +
 	                '<div id="siteNotice">' +
 	                '</div>';
@@ -57,9 +56,6 @@ Link to map: [AA Map](http://ec2-54-165-90-63.compute-1.amazonaws.com:3000/aa)
 	                    wheelchairAccessIcon = '<img src="https://i.imgur.com/XC5Fmgp
 	.png" width="32" height="32" style="vertical-align:middle;margin-left:0px;" alt="
 	Wheelchair Access" title="Wheelchair Access">';
-	                    
-	                console.log("cont.meetingGroups[i].groupInfo.meetingWheelchair is
-	: " + cont.meetingGroups[i].groupInfo.meetingWheelchair);
 	                
 	                contentHolder = contentHolder + '<h2 style="font-size:14px;font-w
 	eight:normal;margin-top:3px;">' + cont.meetingGroups[i].groupInfo.meetingAddress1
@@ -74,9 +70,6 @@ Link to map: [AA Map](http://ec2-54-165-90-63.compute-1.amazonaws.com:3000/aa)
 	stHeading" style="font-weight:normal;margin-bottom:7px;">';
 	                contentHolder = contentHolder + cont.meetingGroups[i].groupInfo.m
 	eetingName + '</h2>';
-	                
-	                console.log("cont.meetingGroups[" + i + "].groupInfo.meetingName:
-	 " + cont.meetingGroups[i].groupInfo.meetingName);
 	                
 	                contentHolder = contentHolder + '<div style="border-top:1px solid
 	 #D1D0CE;">';
@@ -114,12 +107,6 @@ Link to map: [AA Map](http://ec2-54-165-90-63.compute-1.amazonaws.com:3000/aa)
 	                    else {
 	                        mt = "";
 	                    }
-	console.log("mt is: " + mt);
-	                    
-	                    console.log("cont.meetingGroups[i].meetingSpecialInterest is:
-	 " + cont.meetingGroups[i].meetingSpecialInterest);
-	                    console.log("and specialInterest is: " + cont.meetingGroups[i
-	].meetingSpecialInterest);
 	                        
 	                    contentHolder = contentHolder + '<div style="margin:8px 0;">'
 	 + convert24to12(cont.meetingGroups[i].meetingStartTime[j]) + ' - ' + convert24to
