@@ -2,6 +2,8 @@
 
 I was assigned the Piezo (knock) sensor and temperature sensor. These sensors were placed in my apartment. I live right by my building front door and commonly experience the noise and vibration of the front door slamming. I put the Piezo sensor against the closest wall to my building front door in order to measure door slamming vibration. The temperature sensor records the temperature inside my apartment where the heat can sometimes be erratic.
 
+![alt text](https://raw.githubusercontent.com/noalarms/data-structures/master/final2/sensors.jpg "Sensors")
+
 ## Part One
 
 ![alt text](https://raw.githubusercontent.com/noalarms/data-structures/master/final2/part1.png "Interface")
