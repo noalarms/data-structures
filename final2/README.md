@@ -29,7 +29,7 @@ For my endpoint, I've collected the following data (and pictured below):
 - __max_temp:__ minimum temp value
 - __min_temp:__ maximum temp value
 
-![alt text](https://raw.githubusercontent.com/noalarms/data-structures/master/final2/part2 data.png "Data")
+![alt text](https://raw.githubusercontent.com/noalarms/data-structures/master/final2/part2-data.png "Data")
 
 In the interface, __sensorday__ and __sensormonth__ run along the x-axis as time.  Knock values are on the left y-axis and temp values are on the right y-axis. The range for each day's  __max_knock__ and __min_knock__ is represented in red, while the range for each day's __max_temp__ and __min_temp__ is represented in green.  When the user hovers on a date column, the min and max of both sensors (__max_knock__/__min_knock__ and __max_temp__/__min_temp__) are shown inside info popovers.
 
